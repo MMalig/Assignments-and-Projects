@@ -3,7 +3,7 @@
 
 <head>
 
-<title>Cloudiness</title>
+<title>Plot Comparisons</title>
 
   <!--CSS Link-->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -49,53 +49,41 @@
       </div>
     </nav>
   </div>
-  <!-- Grid -->
-  <div class="container">
-  <!-- Containers -->
-    <div class="row">
-    <!-- Summary -->
-      <div class="col-lg-7 col-md-12">
-        <div class="box">
-          <h3 class="title">Cloudiness</h3>
-          <hr>
-          <img src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
-          <p>Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of
-            cloudiness percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
-            pattern between cloudiness and latitude.</p>
-        </div>
-      </div>
-      <!-- Visualizations -->
-      <div class="col-lg-5 col-md-12">
-        <div class="box">
-          <h5 class="title">Visualization Plots</h5>
-          <hr>
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
-              <h6> Max Temperature </h6>
-                <a href="maxtemp.html"><img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Plot"></a>
+   <!-- Grid -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <!-- Visualizations -->
+          <div class="box">
+            <h3 class="title">Comparison: City Latitude vs. X</h3>
+            <hr>
+            <p>Click on any plot for an in-depth analysis</p>
+            <div class="container" style="padding-bottom: 40px;">
+              <div class="row">
+                <div class="col-lg-6" style="padding: 30px;">
+                  <div class="title" style="text-align: center;">Max Temperature</div>
+                  <a href="maxtemp.html"><img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Plot"></a>
+                </div>
+                <div class="col-lg-6" style="padding: 30px;">
+                  <div class="title" style="text-align: center;">Humidity</div>
+                  <a href="humidity.html"><img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Plot"></a>
+                </div>
               </div>
-              <div class="col-6">
-              <h6> Humidity </h6>
-                <a href="humidity.html"><img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Plot"></a>
-              </div>
-            </div>
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
-              <h6> Cloudiness </h6>
-                <a href="cloudiness.html"><img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Plot"></a>
-              </div>
-              <div class="col-6">
-              <h6> Wind Speed </h6>
-                <a href="wind.html"><img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Plot"></a>
+              <div class="row">
+                <div class="col-lg-6" style="padding: 30px;">
+                  <div class="title" style="text-align: center;">Cloudiness</div>
+                  <a href="cloudiness.html"><img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Plot"></a>
+                </div>
+                <div class="col-lg-6" style="padding: 30px;">
+                  <div class="title" style="text-align: center;">Wind Speed</div>
+                  <a href="wind.html"><img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Plot"></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
 </body>
 
 </html>

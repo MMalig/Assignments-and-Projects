@@ -1,5 +1,5 @@
 body{
-    background-color: gainsboro; 
+    background-color: gainsboro !important; 
 }
 
 img{
@@ -22,7 +22,13 @@ img{
     font-size: 30px;
     font-family: Calibri, serif;
     font-weight: bold; 
-    padding-top: 25px; 
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+h6{
+text-align: center;
+color: teal!important;
 }
 
 p{
@@ -31,10 +37,16 @@ p{
  }
 
 .box {
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 15px; 
     color:black;
     background-color: white; 
   }
+  
+.table{
+    color: darkslategrey;
+} 
 
 .navbar{
     max-height: 57px; 
@@ -46,6 +58,7 @@ p{
     font-weight: bold; 
     background-color: teal;
     font-family: Calibri, serif;
+    color: white !important;
 }
 
 .navbar{
@@ -73,7 +86,6 @@ a{
     background-color:gainsboro;
    }
 
-
 @media(max-width: 992px){
 .navbar-expand-lg{
 background-color: teal;
@@ -89,12 +101,10 @@ background-color: teal;
 .navbar-brand{
     padding: 10px; 
 }
-
 button{
     margin-right: 30px; 
 }
 button:focus {
-
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
 }
